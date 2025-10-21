@@ -1,0 +1,22 @@
+// ==UserScript==
+// @name         YouTube Speed Toggle
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Toggle between 1x and 2x on keypress 's'
+// @author       Raj Pendkalkar
+// @match        *://www.youtube.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 's') {
+            let video = document.querySelector('video');
+            if (video) {
+                video.playbackRate = video.playbackRate === 2 ? 1 : 2;
+                console.log('Playback speed:', video.playbackRate);
+            }
+        }
+    });
+})();
