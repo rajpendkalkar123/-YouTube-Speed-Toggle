@@ -1,6 +1,8 @@
-# 🎬 YouTube Speed Toggle
+# 🎬 YouTube Speed Toggle   
 
 A simple Tampermonkey user script to toggle YouTube playback speed between `1x` and `2x` using the `S` key.
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
 
@@ -79,4 +81,5 @@ After installing Tampermonkey:
   > `Playback speed: 2`
 
 ---
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
