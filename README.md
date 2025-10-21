@@ -54,7 +54,7 @@ After installing Tampermonkey:
 <img width="475" height="456" alt="image" src="https://github.com/user-attachments/assets/3aa44bd9-904a-4495-bb6b-e9a10c0977ec" />
 
 2. Delete the default code.
-3. Copy and paste the code from the file [`User_Script_YT_Speed_Toggle`](./YouTube-Speed-Toggle.user.js) in this repository.
+3. Copy and paste the code from the file [`User_Script_YT_Speed_Toggle`](User_Script_YT_Speed_Toggle) in this repository.
 
 <img width="1204" height="922" alt="image" src="https://github.com/user-attachments/assets/37888d93-4a16-4b02-8387-8d8730688704" />
 
